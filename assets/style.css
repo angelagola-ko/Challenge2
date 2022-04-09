@@ -1,17 +1,117 @@
-.flexbox {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid black;
-    max-width: 625px;
+:root {
+    --color-1: #ffffff;
+    --color-2: #ffffff;
+    --color-3: #ffffff;
 }
 
-.flexboxchild {
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header {
+    padding: 20px 30px;
+    background-color: #5f61c5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header nav {
+    float:right;
+}
+.header nav ul {
+    list-style-type: none;;
+}
+.header nav ul li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color:rgb(25, 248, 36);
+}
+
+.splash {
+    height: 300px;
+    width: 100%;
+    background-image: url("./pineapple.jpg");
+    /*Not showing the pineapple part like I want*/
+}
+
+.aboutme {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border: 2px black solid;
+    margin: 3%;
 }
 
+.aboutmeheading {
+    margin: 0px 20px;
+}
+.aboutmepara {
+    width: 70%;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+    border-left: 3px solid #5f61c5;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4.2%; /*These margins are not the same*/
+}
+.flexbox {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 3px solid black;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.flexboxchild, .flexboxchildbig {
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flexboxchildbig img {
+    max-width: 840px;
+    vertical-align: bottom;
+}
 .flexboxchild img {
-    max-width: 300px;
+    max-width: 400px;
+    vertical-align: bottom;
+}
+
+
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #5f61c5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer img {
+    width: 50px;
 }
