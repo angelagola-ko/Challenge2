@@ -55,13 +55,12 @@ a {
 .aboutme {
     display:flex;
     flex-wrap: wrap;
-    margin: 3%;
+    margin: 6%;
 }
 
-.aboutmeheading {
-    margin: 0px 20px;
-}
 .aboutmepara {
+    margin: 0px 20px;
+    padding: 0px 20px;
     width: 70%;
     text-align: left;
     line-height: 1.5;
@@ -72,12 +71,14 @@ a {
 .work {
     display: flex;
     flex-wrap: wrap;
-    margin: 4.2%; /*These margins are not the same*/
+    margin: 6%;
+}
+
+
 }
 .flexbox {
     display:flex;
     flex-wrap: wrap;
-    margin: 20px;
     border: 3px solid black;
     max-width: 1000px;
     justify-content: center;
@@ -98,6 +99,23 @@ a {
     vertical-align: bottom;
 }
 
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6%;
+}
+
+.contact address {
+    margin: 0px 20px;
+    padding: 0px 20px;
+    border-left: 3px solid #5f61c5;
+    
+}
+
+.contact address a {
+    color: inherit;
+}
+
 
 
 .footer {
@@ -106,10 +124,7 @@ a {
     background-color: #5f61c5;
     display: flex;
     flex-wrap: wrap;
-}
-.contact {
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer img {
