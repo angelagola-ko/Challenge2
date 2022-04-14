@@ -28,7 +28,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .header nav {
@@ -39,10 +39,18 @@ body {
 }
 .header nav ul li {
     display: inline-block;
+    padding: 12px;
 }
 a {
     text-decoration: none;
     color:rgb(25, 248, 36);
+}
+
+header nav ul li a:hover {
+    /* margin: 0 30px;*/
+    font-weight: lighter; /*wtf does this even do*/
+    text-shadow: 0 0 15px rgba(0, 0, 0, .75);
+    color: white;
 }
 
 .background {
@@ -138,4 +146,17 @@ a {
 
 .footer img {
     width: 50px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
