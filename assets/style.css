@@ -56,81 +56,102 @@ header nav ul li a:hover {
 .background {
     height: 300px;
     width: 100%;
-    background-image: url("./pineapple.jpg");
+    background-image: url("./images/pineapple.jpg");
     /*Not showing the pineapple part like I want*/
 }
-
-.aboutme {
-    display:flex;
+.profile {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.aboutme h1 {
-    margin: 20px 20px 20px 80px;
+    padding-left: 100px;
 }
 
 .aboutmepara {
-    margin: 0px 20px;
-    padding: 0px 20px;
-    width: 70%;
-    text-align: left;
     line-height: 1.5;
     font-size: 18px;
     border-left: 3px solid #5f61c5;
+    padding-left: 50px;
+    width: 30%;
 }
 
 .aboutme img {
-    width: 60%;
+    width: 65%;
     border: 3px solid #5f61c5;
     border-radius: 50%;
-
 }
 
-.work {
+.project-examples {
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    border-left: 2px solid #343637;
+    justify-content: space-around;
+    padding-left: 50px;
+
 }
 
-.work h1 {
-    margin: 20px 20px 20px 80px;
+.large-project {
+    background-image: url("./images/Larrythelobster.png");
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    border: 3px solid #38A9B4;
+    margin-bottom: 20px;
 }
 
-.flexbox {
-    display:flex;
-    flex-wrap: wrap;
-    max-width: 845px;
-    justify-content: center;
-    border-left: 3px solid black;
-    margin: 80px; /*wtf doesnt look right**/
+.large-project h3 {
+    font-size: 40px;
+    margin-top: 500px;
 }
 
-
-.flexboxchildbig img {
-    max-width: 840px;
-    vertical-align: bottom;
-}
-.flexboxchild img {
-    max-width: 400px;
-    vertical-align: bottom;
+.small-project {
+    border: 2px solid #2CD7E8;
+    object-fit: cover;
+    width: 50%;
+    min-height: 200px;
+    margin-bottom: 20px;
 }
 
-.contact {
-    display: flex;
-    flex-wrap: wrap;
+.small-project h3 {
+    font-size: 30px;
+    margin-top: 200px;
 }
 
-.contact h1{
-    margin: 20px 20px 20px 80px;
+.profile span {
+    background-color: #2CD7E8;
+    border: 2px solid #38A9B4;
 }
-.contact p {
-    margin: 0px 20px;
-    padding: 0px 20px;
-    border-left: 3px solid #5f61c5; 
+
+.noidea {
+    background-image: url("./images/Larrythelobster.png");
+    background-size: cover;
+}
+
+.lobsters {
+    background-image: url("./images/Larrythelobster.png");
+    background-size: cover;
+}
+
+.cats {
+    background-image: url("./images/Larrythelobster.png");
+    background-size: cover;
+}
+
+.run-buddy {
+    background-image: url("./images/hero-bg.jpg");
+    background-size: cover;
+}
+
+.contact p { 
     font-size: 14px;
+    border-left: 3px solid #5f61c5;
+    padding-left: 50px;
 }
 
 .contact address a {
-    color: inherit;
+    color: inherit; /*Because the email link was green */
 }
 
 
