@@ -8,7 +8,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
 }
 
 body {
@@ -72,7 +71,7 @@ header nav ul li a:hover {
     font-size: 18px;
     border-left: 3px solid #5f61c5;
     padding-left: 50px;
-    width: 30%;
+    width: 40%;
 }
 
 .aboutme img {
@@ -104,6 +103,10 @@ header nav ul li a:hover {
 .large-project h3 {
     font-size: 40px;
     margin-top: 500px;
+}
+
+.large-project:hover, .small-project:hover {
+    opacity: .75;
 }
 
 .small-project {
@@ -154,8 +157,6 @@ header nav ul li a:hover {
     color: inherit; /*Because the email link was green */
 }
 
-
-
 .footer {
     position: sticky;
     bottom: 0;
@@ -171,13 +172,25 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
-
+    .header {
+        background-color: black;
+    }
+    .aboutmepara {
+        width: 75%
+    }
+    /*need to get img to drop down and be small*/
 }
 
 @media screen and (max-width: 768px) {
+    .header {
+        background-color: pink;
+    }
 
 }
 
 @media screen and (max-width: 575px) {
-
+    .header {
+        background-color: red;
+        justify-content: space-around;
+    }
 }
