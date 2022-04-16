@@ -103,7 +103,6 @@ header nav ul li a:hover {
 .large-project {
     background-image: url("./images/Larrythelobster.png");
     background-size: cover;
-    min-height: 500px;
     width: 100%;
     border: 3px solid #38A9B4;
     margin-bottom: 20px;
@@ -186,16 +185,35 @@ header nav ul li a:hover {
     }
     .aboutmepara {
         width: 80%;
+        border: none
     }
     .profile {
         padding: 20px;
     }
+    .large-project {
+        background-position: center;
+    }
+    .small-project {
+        flex: 2 100%;
+    }
+    .contact p{
+        border: none;
+    }
+    .project-examples {
+        border: none;
+    }
+    section div h1 {
+        display: block;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     .header {
         background-color: pink;
     }
+
 
 }
 
