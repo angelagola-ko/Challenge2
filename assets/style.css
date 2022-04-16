@@ -13,10 +13,7 @@
 
 section div h1 {
     width: 100px;
-    clear: both;
 }
-
-
 
 body {
     color: blue;
@@ -86,21 +83,18 @@ header nav ul li a:hover {
 
 .aboutme img {
     width: 250px;
-    margin: 10px;
+    margin: 5px;
     border: 3px solid #5f61c5;
     float: left;
     border-radius: 50%;
 }
 
-.aboutmeheading {
-    clear: both;
-}
 .project-examples {
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    border-left: 2px solid #343637;
+    border-left: 3px solid #5f61c5;
     justify-content: space-around;
     padding-left: 50px;
 
@@ -169,7 +163,7 @@ header nav ul li a:hover {
 }
 
 .contact address a {
-    color: inherit; /*Because the email link was green */
+    color: inherit; /*Gets rids of green link color*/
 }
 
 .footer {
@@ -191,9 +185,11 @@ header nav ul li a:hover {
         background-color: black;
     }
     .aboutmepara {
-        width: 75%
+        width: 80%;
     }
-    /*need to get img to drop down and be small*/
+    .profile {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
