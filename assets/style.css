@@ -98,7 +98,13 @@ header nav ul li a:hover {
     border-left: 3px solid var(--color-1);
     justify-content: space-around;
     padding-left: 50px;
+}
+.project-examples a {
+    color: inherit;
+}
 
+.project-examples a:hover {
+    color: var(--color-3);
 }
 
 .large-project {
@@ -199,20 +205,6 @@ header nav ul li a:hover {
         padding-left: 0px;
     }
 
-
-}
-
-
-@media screen and (max-width: 768px) {
-
-    .background {
-        height: 200px;
-        background-position: center;
-    }
-    section div h1 {
-        color: pink;
-        width: 100%;
-    }
     .contact p{
         border: none;
     }
@@ -222,7 +214,22 @@ header nav ul li a:hover {
     .aboutmepara {
         border:none;
     }
+    section div h1 {
+        color: pink;
+        width: 100%;
+        border-bottom: 2px solid lime;
+        position: absolute;
+        text-align: center;
+    }
+}
 
+
+@media screen and (max-width: 768px) {
+
+    .background {
+        height: 200px;
+        background-position: center;
+    }
 }
 
 @media screen and (max-width: 575px) {
