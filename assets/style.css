@@ -21,7 +21,7 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .header {
-    padding: 20px 30px;
+    padding: 13px 30px 5px;
     background-color: var(--color-1);
     display: flex;
     justify-content: space-between;
@@ -156,7 +156,7 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
-.contact p { 
+.contact p{ 
     font-size: 14px;
     border-left: 3px solid var(--color-1);
     padding-left: 50px;
@@ -183,10 +183,6 @@ header nav ul li a:hover {
 @media screen and (max-width: 980px) {
     .aboutmepara {
         width: 80%;
-        border: none
-    }
-    .profile {
-        padding: 20px;
     }
     .large-project {
         background-position: center;
@@ -194,23 +190,16 @@ header nav ul li a:hover {
     .small-project {
         flex: 2 100%;
     }
-    .contact p{
-        border: none;
-    }
-    .project-examples {
-        border: none;
-    }
+
     .aboutme {
         text-align: center;
     }
     .profile {
         width: 100%;
+        padding-left: 0px;
     }
-    section div h1 {
-        color: pink;
-        width: 100%;
-        text-align: center;
-    }
+
+
 }
 
 
@@ -219,6 +208,19 @@ header nav ul li a:hover {
     .background {
         height: 200px;
         background-position: center;
+    }
+    section div h1 {
+        color: pink;
+        width: 100%;
+    }
+    .contact p{
+        border: none;
+    }
+    .project-examples {
+        border: none;
+    }
+    .aboutmepara {
+        border:none;
     }
 
 }
