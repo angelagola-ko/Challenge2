@@ -200,9 +200,16 @@ header nav ul li a:hover {
     .project-examples {
         border: none;
     }
+    .aboutme {
+        text-align: center;
+    }
+    .profile {
+        width: 100%;
+    }
     section div h1 {
-        color: black;
-    /*ugh*/
+        color: pink;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -213,6 +220,7 @@ header nav ul li a:hover {
         height: 200px;
         background-position: center;
     }
+
 }
 
 @media screen and (max-width: 575px) {
