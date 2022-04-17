@@ -6,10 +6,8 @@
 }
 
 * {
-    /* box-sizing: border-box; */
     margin: 0px;
     padding: 0px; 
-    /* border: 2px solid red; */
 }
 
 section div h1 {
@@ -53,8 +51,7 @@ a {
 }
 
 header nav ul li a:hover {
-    /* margin: 0 30px;*/
-    font-weight: lighter; /*wtf does this even do*/
+    font-weight: lighter;
     text-shadow: 0 0 15px rgba(0, 0, 0, .75);
     color: var(--color-4);
 }
@@ -63,7 +60,6 @@ header nav ul li a:hover {
     height: 300px;
     width: 100%;
     background-image: url("./images/pineapple.jpg");
-    /*Not showing the pineapple part like I want*/
 }
 .profile {
     padding-bottom: 20px;
@@ -79,7 +75,6 @@ header nav ul li a:hover {
     border-left: 3px solid var(--color-1);
     padding-left: 50px;
     width: 70%;
-    /* float: right; */
 }
 
 .aboutme img {
@@ -98,7 +93,13 @@ header nav ul li a:hover {
     border-left: 3px solid var(--color-1);
     justify-content: space-around;
     padding-left: 50px;
+}
+.project-examples a {
+    color: inherit;
+}
 
+.project-examples a:hover {
+    color: var(--color-3);
 }
 
 .large-project {
@@ -163,7 +164,7 @@ header nav ul li a:hover {
 }
 
 .contact address a {
-    color: inherit; /*Gets rids of green link color*/
+    color: inherit;
 }
 
 .footer {
@@ -179,7 +180,6 @@ header nav ul li a:hover {
     width: 50px;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px) {
     .aboutmepara {
         width: 80%;
@@ -200,6 +200,31 @@ header nav ul li a:hover {
     }
 
 
+    .contact p{
+        border: none;
+        color: purple;
+        display: inline-block;
+        padding: 5px;
+        position: relative;
+        left: 15%;
+    }
+
+    .project-examples {
+        border: none;
+        padding: 40px;
+    }
+
+    .aboutmepara {
+        border:none;
+        padding-top: 40px;
+    }
+
+    section div h1 {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+    
 }
 
 
@@ -209,20 +234,6 @@ header nav ul li a:hover {
         height: 200px;
         background-position: center;
     }
-    section div h1 {
-        color: pink;
-        width: 100%;
-    }
-    .contact p{
-        border: none;
-    }
-    .project-examples {
-        border: none;
-    }
-    .aboutmepara {
-        border:none;
-    }
-
 }
 
 @media screen and (max-width: 575px) {
