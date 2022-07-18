@@ -103,7 +103,7 @@ header nav ul li a:hover {
 }
 
 .large-project {
-    background-image: url("./images/Larrythelobster.png");
+    background-image: url("./images/Zookeeper.png");
     background-size: cover;
     width: 100%;
     border: 3px solid var(--color-1);
@@ -138,17 +138,17 @@ header nav ul li a:hover {
 }
 
 .noidea {
-    background-image: url("./images/Larrythelobster.png");
+    background-image: url("./images/Just_tech_news.png");
     background-size: cover;
 }
 
 .lobsters {
-    background-image: url("./images/Larrythelobster.png");
+    background-image: url("./images/vocab_builder.png");
     background-size: cover;
 }
 
 .cats {
-    background-image: url("./images/Larrythelobster.png");
+    background-image: url("./images/Travelot.png");
     background-size: cover;
 }
 
